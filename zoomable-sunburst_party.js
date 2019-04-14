@@ -119,7 +119,7 @@ const m0 = {
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-        d3.json("party.json")
+        d3.json("https://raw.githubusercontent.com/mkapoorisid/sunburst/gh-pages/party.json")
       )})
     },
     {
