@@ -1,4 +1,4 @@
-d3.csv('var1.csv', function (data) {
+d3.csv('https://raw.githubusercontent.com/mkapoorisid/scatter/gh-pages/var1.csv', function (data) {
   // Variables
   var body = d3.select('body')
 	var margin = { top: 0, right: 50, bottom: 50, left: 50 }
